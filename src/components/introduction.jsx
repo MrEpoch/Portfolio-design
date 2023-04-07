@@ -1,25 +1,43 @@
-import React, { useRef } from 'react'
+import React, { useRef, useEffect } from 'react'
 import { Canvas, useFrame } from '@react-three/fiber'
 import { OrbitControls, Stars  } from '@react-three/drei'
 import { Physics, useBox, usePlane } from '@react-three/cannon'
+import { Model } from "./models/Shape";
+import Typed from "typed.js";
 
 export default function Introduction() {
 
+  const typedEl = useRef();
+
+  useEffect(() => {
+    const typed = new Typed(typedEl.current, {
+      strings: ["Web developer with interest in design", "UX and UI with react and css", "Big interest in technologies like contracts with solidity", "Experience with Firebase services"], 
+      startDelay: 300,
+      typeSpeed: 30,
+      backSpeed: 30,
+      backDelay: 3000,
+      loop: true,
+    });
+
+    // Destropying
+    return () => {
+      typed.destroy();
+    };
+  }, []);
+
+
   return (
     <section className='introduction'>
-        <div className="irregular-blob"></div>
         <div className="introduction-header-text">
-            <h1>Hello, I am <span className='span-important'>Alex</span></h1>
-            <p>Web developer with interest in design, UX and UI, and new technologies</p>
+            <h1>Hello, I am <span className='span-important'>Alex</span> <span className='wave-hand'>&#128075;</span></h1>
+            <div className='typedContainer'><p ref={typedEl}>Web developer with interest in design.</p></div>
         </div>
         <Canvas resize={true} data-paper-resize  className="someDesign">
           <ambientLight intensity={0.3} />
-          <pointLight position={[10, 10, 10]} />
+          <spotLight position={[10, 15, 10]} angle={0.3} />
           <Physics>
-            <Shape position={[-1.2, 0, 0]} />
-            <Plane />
+            <Model position={[-0.6, 0.69, -0.26]} />
           </Physics>
-          <OrbitControls />
         </Canvas>
     </section>
   )
@@ -27,10 +45,6 @@ export default function Introduction() {
 
 function Shape() {
   const ref = useRef();
-  useFrame((state, delta) => (
-    ref.current.rotation.y += delta / 3,
-    ref.current.rotation.x += delta / 3
-  ))
 
   return (
     <>
