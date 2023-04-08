@@ -2,19 +2,18 @@ import React, { useRef, useEffect } from 'react'
 import { Canvas, useFrame } from '@react-three/fiber'
 import { OrbitControls, Stars  } from '@react-three/drei'
 import { Physics, useBox, usePlane } from '@react-three/cannon'
-import { Model } from "./models/Shape";
+import { Model } from "./models/Planet";
 import Typed from "typed.js";
 
 export default function Introduction() {
-
   const typedEl = useRef();
 
   useEffect(() => {
     const typed = new Typed(typedEl.current, {
-      strings: ["Web developer with interest in design", "UX and UI with react and css", "React Native app developer ", "Experience with Firebase services"], 
+      strings: ["Designer", "Alex", "Developer"], 
       startDelay: 300,
-      typeSpeed: 30,
-      backSpeed: 30,
+      typeSpeed: 70,
+      backSpeed: 70,
       backDelay: 3000,
       loop: true,
     });
@@ -22,19 +21,19 @@ export default function Introduction() {
     return () => {
       typed.destroy();
     };
-  }, []);
+  });
 
 
   return (
     <section className='introduction'>
         <div className="introduction-header-text">
-            <h1>Hello, I am <span className='span-important'>Alex</span> <span className='wave-hand'>&#128075;</span></h1>
-            <div className='typedContainer'><p ref={typedEl}>Web developer with interest in design.</p></div>
+            <h1>Hello, I am <span ref={typedEl} className='span-important'>Alex</span> <span className='wave-hand'>&#128075;</span></h1>
+            <div className='typedContainer'><p>Web developer with interest in designing.</p></div>
         </div>
         <div className="introduction-Canvas-container">
           <Canvas size={[`50%`,`50%`]} resize={true} data-paper-resize  className="someDesign">
             <ambientLight intensity={0.5} />
-            <spotLight position={[15, 20, 15]} angle={0.7} />
+            <rectAreaLight position={[2, 1, 3]} />
             <Physics>
               <Model position={[-0.6, 0.69, -0.26]} />
             </Physics>

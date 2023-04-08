@@ -13,7 +13,13 @@
   --vibrant-magenta-galaxy: #8217c4;
   --vibrant-magenta-galaxy-hover: #5f077d;
   --galaxy-button: #28183b;
+
+  --blue-obsidian: var(--vibrant-magenta-galaxy-hover);
+  --pink-obsidian: #FF33D2;
+  --green-obsidian: #D2FF33;
   --galaxy-button-hover: #3e255d;
+
+  --gradient-light: linear-gradient(to right, var(--blue-obsidian) ,var(--green-obsidian), var(--pink-obsidian));
   --gradient-colors: linear-gradient(to right, var(--deep-violet-galaxy),var(--dark-violet-galaxy) ,var(--rich-violet-galaxy));
   --gradient-phone: linear-gradient(to top,var(--deep-violet-galaxy),var(--dark-violet-galaxy) ,var(--rich-violet-galaxy));
 }
@@ -35,7 +41,7 @@ html {
 }
 
 .span-important {
-  color: var(--vibrant-magenta-galaxy);
+  color: var(--blue-obsidian);
 }
 
 
