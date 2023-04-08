@@ -31,14 +31,16 @@ export default function Introduction() {
             <h1>Hello, I am <span className='span-important'>Alex</span> <span className='wave-hand'>&#128075;</span></h1>
             <div className='typedContainer'><p ref={typedEl}>Web developer with interest in design.</p></div>
         </div>
-        <Canvas size={[`80%`,`80%`]} resize={true} data-paper-resize  className="someDesign">
-          <ambientLight intensity={0.5} />
-          <spotLight position={[15, 20, 15]} angle={0.7} />
-          <Physics>
-            <Model position={[-0.6, 0.69, -0.26]} />
-          </Physics>
-          <OrbitControls maxDistance={5} autoRotate minDistance={5} enablePan={false}  />
-        </Canvas>
+        <div className="introduction-Canvas-container">
+          <Canvas size={[`50%`,`50%`]} resize={true} data-paper-resize  className="someDesign">
+            <ambientLight intensity={0.5} />
+            <spotLight position={[15, 20, 15]} angle={0.7} />
+            <Physics>
+              <Model position={[-0.6, 0.69, -0.26]} />
+            </Physics>
+            <OrbitControls enableZoom={false} zoom={false} maxDistance={5} autoRotate minDistance={5} enablePan={false}  />
+          </Canvas>
+        </div>
     </section>
   )
 }

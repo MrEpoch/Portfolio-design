@@ -17,7 +17,7 @@ export default function About() {
         <div className="about-cards-container">
             <div className="about-card">
                 <Canvas size={[`50%`,`50%`]} className="about-card-canvas">
-                    <OrbitControls minDistance={5} autoRotate maxDistance={5} enablePan={false} />
+                    <OrbitControls enableZoom={false} minDistance={5} autoRotate maxDistance={5} enablePan={false} />
                     <ambientLight intensity={0.3} />
                     <spotLight position={[10, 15, 10]} angle={0.3} />
                     <Physics>
@@ -28,7 +28,7 @@ export default function About() {
             </div>
             <div className="about-card">
                 <Canvas size={[`50%`,`50%`]} className="about-card-canvas">
-                    <OrbitControls maxDistance={3} autoRotate minDistance={3} enablePan={false} />
+                    <OrbitControls enableZoom={false} maxDistance={3} autoRotate minDistance={3} enablePan={false} />
                     <ambientLight intensity={0.3} />
                     <spotLight position={[10, 15, 10]} angle={0.3} />
                     <Physics>
@@ -39,7 +39,7 @@ export default function About() {
             </div>
             <div className="about-card">
                 <Canvas size={[`50%`,`50%`]} className="about-card-canvas">
-                    <OrbitControls maxDistance={1} autoRotateSpeed={100} autoRotate minDistance={1} enablePan={false} />
+                    <OrbitControls enableZoom={false} maxDistance={1} autoRotateSpeed={10} autoRotate minDistance={1} enablePan={false} />
                     <ambientLight intensity={0.3} />
                     <spotLight position={[10, 15, 10]} angle={0.3} />
                     <Physics>
@@ -50,7 +50,7 @@ export default function About() {
             </div>
             <div className="about-card">
                 <Canvas size={[`50%`,`50%`]} className="about-card-canvas">
-                    <OrbitControls maxDistance={3} autoRotate minDistance={3} enablePan={false} />
+                    <OrbitControls enableZoom={false} maxDistance={3} autoRotate minDistance={3} enablePan={false} />
                     <ambientLight intensity={0.3} />
                     <spotLight position={[10, 15, 10]} angle={0.3} />
                     <Physics>

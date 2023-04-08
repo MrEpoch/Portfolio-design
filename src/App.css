@@ -42,7 +42,8 @@
   font-size: 18px;
   text-align: center;
   text-decoration: none;
-  background-color: var(--galaxy-button);
+  background-color: transparent;
+  border: 2px solid var(--vibrant-magenta-galaxy);
   color: white;
   border-radius: 5px;
   transition: background-color 0.5s ease, transform 0.5s ease;
@@ -103,8 +104,12 @@
 }
 
 
-.someDesign {
+.introduction-Canvas-container {
+  justify-self: flex-end;
+  width: 40vw;
+  padding-right: 20%;
   grid-area: 2 / 1 / 3 / 3;
+  transition: 0.7s;
 }
 
 .wave-hand {
@@ -117,6 +122,20 @@
   height: 100%;
   width: 100%;
   grid-template-rows: 30% 70%;
+}
+
+.about-info-container {
+  padding-left: 6%;
+}
+
+.about-info-container > h1 {
+  font-size: 3rem;
+}
+
+.about-info-container > p {
+  color: lightgray;
+  padding-right: 30%;
+  font-size: 1.5rem;
 }
 
 .about-cards-container {
@@ -135,9 +154,9 @@
 }
 
 .about-card {
-  border: 3px solid var(--dark-violet-galaxy);
+  border: 5px solid var(--black-galaxy);
   border-radius: 10px;
-  background-color: var(--deep-violet-galaxy);
+  background-image: var(--gradient-phone);
   height: 100%;
   width: 100%;
   display: flex;
