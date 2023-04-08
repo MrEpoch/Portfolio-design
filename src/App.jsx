@@ -1,7 +1,8 @@
-import { useState } from 'react'
+import { useEffect, useState, useCallback } from 'react'
 import './App.css'
 import Navbar from './components/Navbar'
 import Introduction from './components/introduction'
+import About from './components/about'
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Introduction />
+      <About />
     </div>
   )
 }

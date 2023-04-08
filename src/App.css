@@ -1,29 +1,26 @@
 .App {
   width: 100%;
   height: 100%;
-  background-image: radial-gradient(circle at 90.56% -7.92%, #000000 0, black 25%, #330766 50%, black 75%,#000000 100%);
+  background-image: var(--gradient-colors);
   display: grid;
   grid-template-rows: 100px repeat(4, 850px);
   color: white;
 }
 
 .navbar {
+  grid-row: 1 / 2;
+  width: 100vw;
   display: flex;
   align-items: center;
   justify-content: space-around;
   color: white;
-  height: 100px;
-  border-bottom: 4px solid var(--dark-violet-galaxy);
-  background-image: url("./assets/stars.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  position: relative;
 }
+
 
 .navbar-specialDesign > img {
   cursor: pointer;
   margin-top: 10%;
-  aspect-ratio: 1 / 1;
   transition: background-color 0.5s ease, transform 0.5s ease;
 }
 
@@ -47,17 +44,26 @@
   text-decoration: none;
   background-color: var(--galaxy-button);
   color: white;
-  border-radius: 50px;
+  border-radius: 5px;
   transition: background-color 0.5s ease, transform 0.5s ease;
+}
+
+.navbar-elements-container > a:nth-child(3) {
+  background-color: var(--vibrant-magenta-galaxy);
+}
+
+.navbar-elements-container > a:hover:nth-child(3) {
+  background-color: var(--vibrant-magenta-galaxy-hover);
 }
 
 .navbar-elements-container > a:hover {
   cursor: pointer;
-  filter: brightness(200%);
-  transform: scale(1.1) translate(5px);
+  background-color: var(--galaxy-button-hover);
+  transform: scale(1.1) translate(5px) ;
 }
 
 .introduction {
+  width: 100vw;
   position: relative;
   grid-row: 2 / 3;
   display: grid;
@@ -83,9 +89,13 @@
 
 .introduction-header-text > div {
   position: relative;
-  height: 40px;
+  height: 30px;
+  display: inline-block;
 }
 
+.introduction-header-text > div > span {
+  font-size: 30px;
+}
 
 .introduction-header-text p {
   display: inline-block;
@@ -99,4 +109,29 @@
 
 .wave-hand {
 
+}
+
+.about {
+  grid-row: 3 / 4;
+  display: grid;
+  height: 100%;
+  width: 100%;
+  grid-template-rows: 25% 75%;
+}
+
+.about-cards-container {
+  grid-row: 2 / 3;
+  display: grid;
+  grid-template: 100% / repeat(4, minmax(200px, 1fr));
+  justify-content: center;
+  align-items: center;
+}
+
+.about-card-canvas {
+  height: 70%!important;
+}
+
+.about-card {
+  height: 100%;
+  width: 100%;
 }

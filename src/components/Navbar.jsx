@@ -6,9 +6,7 @@ export default function Navbar() {
 
   return (
     <nav className='navbar'>
-        <div className="navbar-specialDesign">
-            <img width={100} height={100} src={Logo} />
-        </div>
+        <div className="empty"></div>
         <div className="navbar-elements-container">
             <Link to="/">About</Link>
             <Link to="/">Experience</Link>

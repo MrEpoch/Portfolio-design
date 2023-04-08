@@ -9,9 +9,12 @@
   --black-galaxy: #000000;
   --deep-violet-galaxy: #130029 ;
   --dark-violet-galaxy: #330766 ;
-  --rich-violet-galaxy: #5B14A0 ;
-  --vibrant-magenta-galaxy: #8F24D3;
-  --galaxy-button: #080822;
+  --rich-violet-galaxy: #571b94 ;
+  --vibrant-magenta-galaxy: #8217c4;
+  --vibrant-magenta-galaxy-hover: #5f077d;
+  --galaxy-button: #28183b;
+  --galaxy-button-hover: #3e255d;
+  --gradient-colors: linear-gradient(to right, var(--deep-violet-galaxy),var(--dark-violet-galaxy) ,var(--rich-violet-galaxy));
 }
 
 body,
@@ -23,9 +26,11 @@ html {
 
 
 #root {
+  display: flex;
+  justify-content: center;
   min-height: 100%;
   width: 100%;
-  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 .span-important {

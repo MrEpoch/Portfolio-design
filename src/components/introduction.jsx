@@ -11,7 +11,7 @@ export default function Introduction() {
 
   useEffect(() => {
     const typed = new Typed(typedEl.current, {
-      strings: ["Web developer with interest in design", "UX and UI with react and css", "Big interest in technologies like contracts with solidity", "Experience with Firebase services"], 
+      strings: ["Web developer with interest in design", "UX and UI with react and css", "React Native app developer ", "Experience with Firebase services"], 
       startDelay: 300,
       typeSpeed: 30,
       backSpeed: 30,
@@ -19,7 +19,6 @@ export default function Introduction() {
       loop: true,
     });
 
-    // Destropying
     return () => {
       typed.destroy();
     };
@@ -32,7 +31,7 @@ export default function Introduction() {
             <h1>Hello, I am <span className='span-important'>Alex</span> <span className='wave-hand'>&#128075;</span></h1>
             <div className='typedContainer'><p ref={typedEl}>Web developer with interest in design.</p></div>
         </div>
-        <Canvas resize={true} data-paper-resize  className="someDesign">
+        <Canvas size={[`80%`,`80%`]} resize={true} data-paper-resize  className="someDesign">
           <ambientLight intensity={0.3} />
           <spotLight position={[10, 15, 10]} angle={0.3} />
           <Physics>
