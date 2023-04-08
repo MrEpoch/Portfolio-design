@@ -32,11 +32,12 @@ export default function Introduction() {
             <div className='typedContainer'><p ref={typedEl}>Web developer with interest in design.</p></div>
         </div>
         <Canvas size={[`80%`,`80%`]} resize={true} data-paper-resize  className="someDesign">
-          <ambientLight intensity={0.3} />
-          <spotLight position={[10, 15, 10]} angle={0.3} />
+          <ambientLight intensity={0.5} />
+          <spotLight position={[15, 20, 15]} angle={0.7} />
           <Physics>
             <Model position={[-0.6, 0.69, -0.26]} />
           </Physics>
+          <OrbitControls maxDistance={5} autoRotate minDistance={5} enablePan={false}  />
         </Canvas>
     </section>
   )

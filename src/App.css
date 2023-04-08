@@ -116,15 +116,18 @@
   display: grid;
   height: 100%;
   width: 100%;
-  grid-template-rows: 25% 75%;
+  grid-template-rows: 30% 70%;
 }
 
 .about-cards-container {
   grid-row: 2 / 3;
+  width: 90%;
+  justify-self: center;
   display: grid;
   grid-template: 100% / repeat(4, minmax(200px, 1fr));
   justify-content: center;
   align-items: center;
+  gap: 3%;
 }
 
 .about-card-canvas {
@@ -132,6 +135,22 @@
 }
 
 .about-card {
+  border: 3px solid var(--dark-violet-galaxy);
+  border-radius: 10px;
+  background-color: var(--deep-violet-galaxy);
   height: 100%;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  flex-direction: column;
+}
+
+.about-card {
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }

@@ -1,6 +1,12 @@
 import React from 'react'
 import { Canvas } from '@react-three/fiber'
-
+import { Physics, useBox, usePlane } from '@react-three/cannon';
+import { OrbitControls } from '@react-three/drei';
+import { Phone } from "./models/Phone";
+import { Pet } from './models/Pet';
+import { Special } from './models/Special';
+import { Box } from "./models/Box";
+ 
 export default function About() {
   return (
     <section className='about'>
@@ -10,19 +16,47 @@ export default function About() {
         </div>
         <div className="about-cards-container">
             <div className="about-card">
-                <Canvas size={[`50%`,`50%`]} className="about-card-canvas"></Canvas>
+                <Canvas size={[`50%`,`50%`]} className="about-card-canvas">
+                    <OrbitControls minDistance={5} autoRotate maxDistance={5} enablePan={false} />
+                    <ambientLight intensity={0.3} />
+                    <spotLight position={[10, 15, 10]} angle={0.3} />
+                    <Physics>
+                        <Box />
+                    </Physics>
+                </Canvas>
                 <h1 className="about-card-h2">Front-end Developer</h1>
             </div>
             <div className="about-card">
-                <Canvas size={[`50%`,`50%`]} className="about-card-canvas"></Canvas>
+                <Canvas size={[`50%`,`50%`]} className="about-card-canvas">
+                    <OrbitControls maxDistance={3} autoRotate minDistance={3} enablePan={false} />
+                    <ambientLight intensity={0.3} />
+                    <spotLight position={[10, 15, 10]} angle={0.3} />
+                    <Physics>
+                        <Pet />
+                    </Physics>
+                </Canvas>
                 <h1 className="about-card-h2">React Developer</h1>
             </div>
             <div className="about-card">
-                <Canvas size={[`50%`,`50%`]} className="about-card-canvas"></Canvas>
+                <Canvas size={[`50%`,`50%`]} className="about-card-canvas">
+                    <OrbitControls maxDistance={1} autoRotateSpeed={100} autoRotate minDistance={1} enablePan={false} />
+                    <ambientLight intensity={0.3} />
+                    <spotLight position={[10, 15, 10]} angle={0.3} />
+                    <Physics>
+                        <Phone />
+                    </Physics>
+                </Canvas>
                 <h1 className="about-card-h2">React Native Developer</h1>
             </div>
             <div className="about-card">
-                <Canvas size={[`50%`,`50%`]} className="about-card-canvas"></Canvas>
+                <Canvas size={[`50%`,`50%`]} className="about-card-canvas">
+                    <OrbitControls maxDistance={3} autoRotate minDistance={3} enablePan={false} />
+                    <ambientLight intensity={0.3} />
+                    <spotLight position={[10, 15, 10]} angle={0.3} />
+                    <Physics>
+                        <Special />
+                    </Physics>
+                </Canvas>
                 <h1 className="about-card-h2">UI and UX experience</h1>
             </div>
         </div>
