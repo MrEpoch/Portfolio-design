@@ -5,9 +5,9 @@ import App from "./App";
 export default function Routers() {
   return (
     <>
-        <Router>
-            <Route path="/" element={<App />}/>
-        </Router>
+      <Router>
+        <Route path="/" element={<App />} />
+      </Router>
     </>
   );
 }

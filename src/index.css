@@ -1,36 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-:root {
 
+:root {
+  /* Fonts */
+
+  --orbitron-font: "Orbitron", sans-serif;
+
+  /* Design pallete one */
   --black-galaxy: #000000;
-  --deep-violet-galaxy: #130029 ;
-  --dark-violet-galaxy: #330766 ;
-  --rich-violet-galaxy: #571b94 ;
+  --deep-violet-galaxy: #130029;
+  --dark-violet-galaxy: #330766;
+  --rich-violet-galaxy: #571b94;
   --vibrant-magenta-galaxy: #8217c4;
   --vibrant-magenta-galaxy-hover: #5f077d;
   --galaxy-button: #28183b;
 
   --blue-obsidian: var(--vibrant-magenta-galaxy-hover);
-  --pink-obsidian: #FF33D2;
-  --green-obsidian: #D2FF33;
   --galaxy-button-hover: #3e255d;
 
-  --gradient-light: linear-gradient(to right, var(--blue-obsidian) ,var(--green-obsidian), var(--pink-obsidian));
-  --gradient-colors: linear-gradient(to right, var(--deep-violet-galaxy),var(--dark-violet-galaxy) ,var(--rich-violet-galaxy));
-  --gradient-phone: linear-gradient(to top,var(--deep-violet-galaxy),var(--dark-violet-galaxy) ,var(--rich-violet-galaxy));
+  /* Design pallete two */
+
+  --blue-six: #212255;
+  --blue-five: #301f69;
+  --purple-three: #411766;
+  --purple-four: #381f71;
+  --blue-four: #3e2974;
+  --purple-two: #35225f;
+  --purple-one: #38206b;
+  --text-yellow: #f7d417;
+
+  /* Design pallete three */
+
+  --black-pure: #000;
+  --white-pure: #fff;
+
+  /* Gradients */
+
+  --gradient-pure: linear-gradient(
+    120deg,
+    var(--black-pure) 80%,
+    var(--white-pure)
+  );
+
+  --purple-to-blue: linear-gradient(
+    to right,
+    var(--purple-three),
+    var(--purple-two),
+    var(--purple-one),
+    var(--purple-four),
+    var(--blue-four),
+    var(--blue-five),
+    var(--blue-six)
+  );
+  --purple-to-black: linear-gradient(
+    to bottom,
+    var(--rich-violet-galaxy),
+    var(--dark-violet-galaxy),
+    var(--deep-violet-galaxy),
+    var(--black-pure)
+  );
+
+  --gradient-light: linear-gradient(
+    to right,
+    var(--blue-obsidian),
+    var(--green-obsidian),
+    var(--pink-obsidian)
+  );
+  --gradient-colors: linear-gradient(
+    to right,
+    var(--deep-violet-galaxy),
+    var(--dark-violet-galaxy),
+    var(--rich-violet-galaxy)
+  );
+  --gradient-phone: linear-gradient(
+    to top,
+    var(--deep-violet-galaxy),
+    var(--dark-violet-galaxy),
+    var(--rich-violet-galaxy)
+  );
 }
 
 body,
 html {
   width: 100%;
   height: 100%;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-
 
 #root {
   display: flex;
@@ -41,9 +102,14 @@ html {
 }
 
 .span-important {
-  color: var(--blue-obsidian);
+  font-family: var(--orbitron-font);
+  color: var(--text-yellow);
 }
 
-
-
-
+.NO-COPY {
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
