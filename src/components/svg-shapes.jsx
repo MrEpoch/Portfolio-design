@@ -2,12 +2,12 @@ import React from 'react'
 
 export function SvgIntroduction() {
   return (
-    <div drag className="introduction-svg-container">
+    <div className="introduction-svg-container">
         <svg
         className="geometric-shape"
         xmlns="http://www.w3.org/2000/svg"
         version="1.1"
-        xmlns:xlink="http://www.w3.org/1999/xlink"
+        xmlnsXlink="http://www.w3.org/1999/xlink"
         xmlns:svgjs="http://svgjs.dev/svgjs"
         viewBox="0 0 800 800"
         >
@@ -19,19 +19,19 @@ export function SvgIntroduction() {
             y2="100%"
             id="wwwhirl-grad"
             >
-            <stop stop-color="#411766ff" stop-opacity="1" offset="45%"></stop>
+            <stop stopColor="#411766ff" stopOpacity="1" offset="45%"></stop>
             <stop
-                stop-color="hsla(0, 0%, 0%, 1.00)"
-                stop-opacity="1"
+                stopColor="hsla(0, 0%, 0%, 1.00)"
+                stopOpacity="1"
                 offset="100%"
             ></stop>
             </linearGradient>
         </defs>
         <g
-            stroke-width="2"
+            strokeWidth="2"
             stroke="hsl(0, 0%, 0%)"
             fill="none"
-            stroke-linecap="round"
+            strokeLinecap="round"
         >
             <path
             d="M-269.7499440040591 512.5136872012487C-225.09994536666895 484.0493130699125 -91.14994945449837 343.73669235191386 -1.8499521797180591 341.7274424132313C87.45004509506231 339.7181924745487 176.7500423698425 511.84393722168784 266.050039644623 500.4581875691533C355.35003691940335 489.07243791661887 444.6500341941837 269.05956963087874 533.9500314689641 273.41294449802433C623.2500287437445 277.76631936516986 712.5500260185249 522.225061904881 801.8500232933054 526.5784367720266C891.1500205680857 530.9318116391721 1025.100016480256 337.3740675460857 1069.7500151176462 299.5331937008976 "

@@ -13,9 +13,10 @@ export default function About() {
   }, [control, inView]);
 
   const textVariant = {
-    visible: { opacity: 1, scale: 1, transition: { duration: 1 }, y: 0 },
+    visible: { opacity: 1, scale: 1, transition: { duration: 0.9 }, y: 0 },
     hidden: { opacity: 0, scale: 0.95, y: 20 },
   };
+  
 
   return (
     <section className="about NO-COPY">
@@ -35,8 +36,9 @@ export default function About() {
           <li>Experience with a few npm libraries and packages like framer-motion for animating and THREE.js for stunning 3D models.</li>
           <li>I have some ventures with Firebase as a backend with Auth and FireStore.</li>
         </ul>
+      <canvas className="random"></canvas>
       </motion.div>
-      <div className="about-cards-container">
+       <div className="about-cards-container">
         <div className="about-card">
           <h1 className="about-card-h2">Front-end Developer</h1>
         </div>
@@ -46,10 +48,14 @@ export default function About() {
         <div className="about-card">
           <h1 className="about-card-h2">React Native Developer</h1>
         </div>
+        
         <div className="about-card">
           <h1 className="about-card-h2">UI and UX experience</h1>
         </div>
       </div>
+ 
+
     </section>
+    
   );
 }

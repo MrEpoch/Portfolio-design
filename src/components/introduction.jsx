@@ -26,6 +26,7 @@ export default function Introduction() {
 
   return (
     <section className="introduction">
+      <div className="blurry-design"></div>
       <SvgIntroduction />
       <div className="introduction-header-text">
         <h1>
@@ -52,6 +53,7 @@ export default function Introduction() {
             <Phone />
           </Physics>
           <OrbitControls
+            autoRotateSpeed={4}
             enableZoom={false}
             zoom={false}
             maxDistance={1}

@@ -80,6 +80,7 @@
   z-index: -1;
 }
 
+
 .introduction-header-text {
   white-space: nowrap;
   display: flex;
@@ -126,8 +127,14 @@
   transition: 0.7s;
 }
 
-
-.wave-hand {
+.blurry-design {
+  position: absolute;
+  right: 17%;
+  top: 14%;
+  background-color: white;
+  width: 25%;
+  aspect-ratio: 1 / 1;
+  filter: blur(450px);
 }
 
 .about {
