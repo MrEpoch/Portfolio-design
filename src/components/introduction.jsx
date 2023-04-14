@@ -54,10 +54,9 @@ export default function Introduction() {
           </Physics>
           <OrbitControls
             autoRotateSpeed={4}
-            enableZoom={false}
             zoom={false}
-            maxDistance={1}
             autoRotate
+            maxDistance={1}
             minDistance={1}
             enablePan={false}
           />
