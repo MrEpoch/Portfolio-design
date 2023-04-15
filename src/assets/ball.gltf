@@ -5,48 +5,14 @@
   },
   "scenes": [
     {
-      "nodes": [
-        0
-      ]
+      "nodes": [0]
     }
   ],
   "scene": 0,
   "nodes": [
     {
-      "children": [
-        1,
-        2,
-        3,
-        4,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13,
-        14,
-        15,
-        16
-      ],
-      "matrix": [
-        0.01,
-        0,
-        0,
-        0,
-        0,
-        0.01,
-        0,
-        0,
-        0,
-        0,
-        0.01,
-        0,
-        0,
-        0,
-        0,
-        1
-      ]
+      "children": [1, 2, 3, 4, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],
+      "matrix": [0.01, 0, 0, 0, 0, 0.01, 0, 0, 0, 0, 0.01, 0, 0, 0, 0, 1]
     },
     {
       "name": "download.png 3",
@@ -62,22 +28,9 @@
     },
     {
       "matrix": [
-        0.34456181886481857,
-        0.6445246718153196,
-        0.6825431124858873,
-        0,
-        0.8818892909604213,
-        -0.47145654994848174,
-        0,
-        0,
-        0.3217894210036949,
-        0.6019274615200982,
-        -0.7308453321996915,
-        0,
-        0,
-        0,
-        0,
-        1
+        0.34456181886481857, 0.6445246718153196, 0.6825431124858873, 0,
+        0.8818892909604213, -0.47145654994848174, 0, 0, 0.3217894210036949,
+        0.6019274615200982, -0.7308453321996915, 0, 0, 0, 0, 1
       ],
       "name": "Directional Light 6",
       "extensions": {
@@ -87,24 +40,7 @@
       }
     },
     {
-      "matrix": [
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        1
-      ],
+      "matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1],
       "name": "Directional Light 6",
       "extensions": {
         "KHR_lights_punctual": {
@@ -113,52 +49,19 @@
       }
     },
     {
-      "matrix": [
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        2.5,
-        -2.5,
-        0,
-        1
-      ],
+      "matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.5, -2.5, 0, 1],
       "name": "Shape 0",
       "mesh": 3
     },
     {
       "name": "icon_create",
-      "children": [
-        5,
-        6
-      ]
+      "children": [5, 6]
     },
     {
       "matrix": [
-        0.34456181886481857,
-        0.6445246718153196,
-        0.6825431124858873,
-        0,
-        0.8818892909604213,
-        -0.47145654994848174,
-        0,
-        0,
-        0.3217894210036949,
-        0.6019274615200982,
-        -0.7308453321996915,
-        0,
-        0,
-        0,
-        0,
-        1
+        0.34456181886481857, 0.6445246718153196, 0.6825431124858873, 0,
+        0.8818892909604213, -0.47145654994848174, 0, 0, 0.3217894210036949,
+        0.6019274615200982, -0.7308453321996915, 0, 0, 0, 0, 1
       ],
       "name": "Directional Light 5",
       "extensions": {
@@ -169,22 +72,9 @@
     },
     {
       "matrix": [
-        0.8578943578499841,
-        0.4077589233275893,
-        -0.3126498540154603,
-        0,
-        0.4292793640248686,
-        -0.903171759756916,
-        0,
-        0,
-        -0.28237651883888615,
-        -0.13421413049422481,
-        -0.9498684481464322,
-        0,
-        0,
-        0,
-        0,
-        1
+        0.8578943578499841, 0.4077589233275893, -0.3126498540154603, 0,
+        0.4292793640248686, -0.903171759756916, 0, 0, -0.28237651883888615,
+        -0.13421413049422481, -0.9498684481464322, 0, 0, 0, 0, 1
       ],
       "name": "Directional Light 3",
       "extensions": {
@@ -195,22 +85,9 @@
     },
     {
       "matrix": [
-        0.19544262078017152,
-        -0.5544394518965534,
-        0.8089493656362106,
-        0,
-        -0.9431193994666796,
-        -0.3324542048908536,
-        0,
-        0,
-        0.2689386181495468,
-        -0.7629358399177743,
-        -0.587878324006569,
-        0,
-        0,
-        0,
-        0,
-        1
+        0.19544262078017152, -0.5544394518965534, 0.8089493656362106, 0,
+        -0.9431193994666796, -0.3324542048908536, 0, 0, 0.2689386181495468,
+        -0.7629358399177743, -0.587878324006569, 0, 0, 0, 0, 1
       ],
       "name": "Directional Light 2",
       "extensions": {
@@ -221,22 +98,9 @@
     },
     {
       "matrix": [
-        0.29411848563471676,
-        0.5174650489796805,
-        -0.803569685523538,
-        0,
-        0.8693813154105089,
-        -0.4941418100253137,
-        0,
-        0,
-        -0.3970773788860732,
-        -0.6986084702244625,
-        -0.5952106858143612,
-        0,
-        0,
-        0,
-        0,
-        1
+        0.29411848563471676, 0.5174650489796805, -0.803569685523538, 0,
+        0.8693813154105089, -0.4941418100253137, 0, 0, -0.3970773788860732,
+        -0.6986084702244625, -0.5952106858143612, 0, 0, 0, 0, 1
       ],
       "name": "Directional Light",
       "extensions": {
@@ -247,22 +111,9 @@
     },
     {
       "matrix": [
-        0.7401387728990925,
-        -0.5502884431208188,
-        0.3864935008756178,
-        0,
-        -0.5966530831046034,
-        -0.8024992825054558,
-        0,
-        0,
-        0.310160757145705,
-        -0.2306025388973291,
-        -0.9222921303908588,
-        0,
-        0,
-        0,
-        0,
-        1
+        0.7401387728990925, -0.5502884431208188, 0.3864935008756178, 0,
+        -0.5966530831046034, -0.8024992825054558, 0, 0, 0.310160757145705,
+        -0.2306025388973291, -0.9222921303908588, 0, 0, 0, 0, 1
       ],
       "name": "Directional Light 4",
       "extensions": {
@@ -273,88 +124,33 @@
     },
     {
       "matrix": [
-        -0.6305653174961918,
-        0.5049944471396545,
-        -0.5238514485852708,
-        0,
-        -0.7526049952499311,
-        -0.5178685973674662,
-        0.4066913288791679,
-        0,
-        -0.06845338247515946,
-        0.6758149349078751,
-        0.7338857596269148,
-        0,
-        -136.2153113888752,
-        8.916522956917216,
-        82.96062754250256,
-        1
+        -0.6305653174961918, 0.5049944471396545, -0.5238514485852708, 0,
+        -0.7526049952499311, -0.5178685973674662, 0.4066913288791679, 0,
+        -0.06845338247515946, 0.6758149349078751, 0.7338857596269148, 0,
+        -136.2153113888752, 8.916522956917216, 82.96062754250256, 1
       ],
       "name": "Sphere",
       "mesh": 4
     },
     {
       "matrix": [
-        1,
-        0,
-        8.700093410695479e-10,
-        0,
-        4.791715113092164e-19,
-        1,
-        -5.507659385819305e-10,
-        0,
-        -8.700093410695479e-10,
-        5.507659385819305e-10,
-        1,
-        0,
-        -8.700093410695479e-7,
-        5.507659385819301e-7,
-        1000,
-        1
+        1, 0, 8.700093410695479e-10, 0, 4.791715113092164e-19, 1,
+        -5.507659385819305e-10, 0, -8.700093410695479e-10,
+        5.507659385819305e-10, 1, 0, -8.700093410695479e-7,
+        5.507659385819301e-7, 1000, 1
       ],
       "name": "Default Camera",
       "camera": 0
     },
     {
       "matrix": [
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        -6.113269632951558e-17,
-        0,
-        0,
-        6.113269632951558e-17,
-        1,
-        0,
-        -76.61915899878984,
-        24.42805974562606,
-        3020.62832640923,
-        1
+        1, 0, 0, 0, 0, 1, -6.113269632951558e-17, 0, 0, 6.113269632951558e-17,
+        1, 0, -76.61915899878984, 24.42805974562606, 3020.62832640923, 1
       ],
       "camera": 1
     },
     {
-      "matrix": [
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        1,
-        0,
-        1
-      ],
+      "matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 1],
       "name": "Default Ambient Light"
     }
   ],
@@ -499,276 +295,152 @@
       "bufferView": 0,
       "componentType": 5126,
       "count": 4,
-      "max": [
-        46,
-        46,
-        0
-      ],
-      "min": [
-        -46,
-        -46,
-        0
-      ],
+      "max": [46, 46, 0],
+      "min": [-46, -46, 0],
       "type": "VEC3"
     },
     {
       "bufferView": 1,
       "componentType": 5126,
       "count": 4,
-      "max": [
-        0,
-        0,
-        1
-      ],
-      "min": [
-        0,
-        0,
-        1
-      ],
+      "max": [0, 0, 1],
+      "min": [0, 0, 1],
       "type": "VEC3"
     },
     {
       "bufferView": 2,
       "componentType": 5126,
       "count": 4,
-      "max": [
-        1,
-        1
-      ],
-      "min": [
-        0,
-        0
-      ],
+      "max": [1, 1],
+      "min": [0, 0],
       "type": "VEC2"
     },
     {
       "bufferView": 3,
       "componentType": 5125,
       "count": 6,
-      "max": [
-        3
-      ],
-      "min": [
-        0
-      ],
+      "max": [3],
+      "min": [0],
       "type": "SCALAR"
     },
     {
       "bufferView": 4,
       "componentType": 5126,
       "count": 4,
-      "max": [
-        46,
-        46,
-        0
-      ],
-      "min": [
-        -46,
-        -46,
-        0
-      ],
+      "max": [46, 46, 0],
+      "min": [-46, -46, 0],
       "type": "VEC3"
     },
     {
       "bufferView": 5,
       "componentType": 5126,
       "count": 4,
-      "max": [
-        0,
-        0,
-        1
-      ],
-      "min": [
-        0,
-        0,
-        1
-      ],
+      "max": [0, 0, 1],
+      "min": [0, 0, 1],
       "type": "VEC3"
     },
     {
       "bufferView": 6,
       "componentType": 5126,
       "count": 4,
-      "max": [
-        1,
-        1
-      ],
-      "min": [
-        0,
-        0
-      ],
+      "max": [1, 1],
+      "min": [0, 0],
       "type": "VEC2"
     },
     {
       "bufferView": 7,
       "componentType": 5125,
       "count": 6,
-      "max": [
-        3
-      ],
-      "min": [
-        0
-      ],
+      "max": [3],
+      "min": [0],
       "type": "SCALAR"
     },
     {
       "bufferView": 8,
       "componentType": 5126,
       "count": 4,
-      "max": [
-        46,
-        46,
-        0
-      ],
-      "min": [
-        -46,
-        -46,
-        0
-      ],
+      "max": [46, 46, 0],
+      "min": [-46, -46, 0],
       "type": "VEC3"
     },
     {
       "bufferView": 9,
       "componentType": 5126,
       "count": 4,
-      "max": [
-        0,
-        0,
-        1
-      ],
-      "min": [
-        0,
-        0,
-        1
-      ],
+      "max": [0, 0, 1],
+      "min": [0, 0, 1],
       "type": "VEC3"
     },
     {
       "bufferView": 10,
       "componentType": 5126,
       "count": 4,
-      "max": [
-        1,
-        1
-      ],
-      "min": [
-        0,
-        0
-      ],
+      "max": [1, 1],
+      "min": [0, 0],
       "type": "VEC2"
     },
     {
       "bufferView": 11,
       "componentType": 5125,
       "count": 6,
-      "max": [
-        3
-      ],
-      "min": [
-        0
-      ],
+      "max": [3],
+      "min": [0],
       "type": "SCALAR"
     },
     {
       "bufferView": 12,
       "componentType": 5126,
       "count": 4,
-      "max": [
-        160,
-        160,
-        0
-      ],
-      "min": [
-        -160,
-        -160,
-        0
-      ],
+      "max": [160, 160, 0],
+      "min": [-160, -160, 0],
       "type": "VEC3"
     },
     {
       "bufferView": 13,
       "componentType": 5126,
       "count": 4,
-      "max": [
-        0,
-        0,
-        1
-      ],
-      "min": [
-        0,
-        0,
-        1
-      ],
+      "max": [0, 0, 1],
+      "min": [0, 0, 1],
       "type": "VEC3"
     },
     {
       "bufferView": 14,
       "componentType": 5126,
       "count": 4,
-      "max": [
-        1,
-        1
-      ],
-      "min": [
-        0,
-        0
-      ],
+      "max": [1, 1],
+      "min": [0, 0],
       "type": "VEC2"
     },
     {
       "bufferView": 15,
       "componentType": 5125,
       "count": 3,
-      "max": [
-        4
-      ],
-      "min": [
-        0
-      ],
+      "max": [4],
+      "min": [0],
       "type": "SCALAR"
     },
     {
       "bufferView": 16,
       "componentType": 5126,
       "count": 976,
-      "max": [
-        275.1282653808594,
-        231.2317657470703,
-        275.46734619140625
-      ],
-      "min": [
-        -275.1282653808594,
-        -231.2317657470703,
-        -275.46734619140625
-      ],
+      "max": [275.1282653808594, 231.2317657470703, 275.46734619140625],
+      "min": [-275.1282653808594, -231.2317657470703, -275.46734619140625],
       "type": "VEC3"
     },
     {
       "bufferView": 17,
       "componentType": 5126,
       "count": 976,
-      "max": [
-        1,
-        1,
-        1
-      ],
-      "min": [
-        -1,
-        -1,
-        -1
-      ],
+      "max": [1, 1, 1],
+      "min": [-1, -1, -1],
       "type": "VEC3"
     },
     {
       "bufferView": 18,
       "componentType": 5125,
       "count": 1440,
-      "max": [
-        975
-      ],
-      "min": [
-        0
-      ],
+      "max": [975],
+      "min": [0],
       "type": "SCALAR"
     }
   ],
@@ -785,34 +457,8 @@
           "extras": {
             "shape": {
               "points": [
-                -46,
-                46,
-                -46,
-                46,
-                -46,
-                46,
-                0,
-                46,
-                46,
-                46,
-                46,
-                46,
-                46,
-                0,
-                46,
-                -46,
-                46,
-                -46,
-                46,
-                -46,
-                0,
-                -46,
-                -46,
-                -46,
-                -46,
-                -46,
-                -46,
-                0
+                -46, 46, -46, 46, -46, 46, 0, 46, 46, 46, 46, 46, 46, 0, 46,
+                -46, 46, -46, 46, -46, 0, -46, -46, -46, -46, -46, -46, 0
               ],
               "shapeHoles": [],
               "isClosed": true,
@@ -821,12 +467,7 @@
             "parameters": {
               "width": 92,
               "depth": 0,
-              "cornerRadius": [
-                0,
-                0,
-                0,
-                0
-              ],
+              "cornerRadius": [0, 0, 0, 0],
               "cornerType": 0,
               "extrudeBevelSize": 0,
               "extrudeBevelSegments": 1,
@@ -854,34 +495,8 @@
           "extras": {
             "shape": {
               "points": [
-                -46,
-                46,
-                -46,
-                46,
-                -46,
-                46,
-                0,
-                46,
-                46,
-                46,
-                46,
-                46,
-                46,
-                0,
-                46,
-                -46,
-                46,
-                -46,
-                46,
-                -46,
-                0,
-                -46,
-                -46,
-                -46,
-                -46,
-                -46,
-                -46,
-                0
+                -46, 46, -46, 46, -46, 46, 0, 46, 46, 46, 46, 46, 46, 0, 46,
+                -46, 46, -46, 46, -46, 0, -46, -46, -46, -46, -46, -46, 0
               ],
               "shapeHoles": [],
               "isClosed": true,
@@ -890,12 +505,7 @@
             "parameters": {
               "width": 92,
               "depth": 0,
-              "cornerRadius": [
-                0,
-                0,
-                0,
-                0
-              ],
+              "cornerRadius": [0, 0, 0, 0],
               "cornerType": 0,
               "extrudeBevelSize": 0,
               "extrudeBevelSegments": 1,
@@ -923,34 +533,8 @@
           "extras": {
             "shape": {
               "points": [
-                -46,
-                46,
-                -46,
-                46,
-                -46,
-                46,
-                0,
-                46,
-                46,
-                46,
-                46,
-                46,
-                46,
-                0,
-                46,
-                -46,
-                46,
-                -46,
-                46,
-                -46,
-                0,
-                -46,
-                -46,
-                -46,
-                -46,
-                -46,
-                -46,
-                0
+                -46, 46, -46, 46, -46, 46, 0, 46, 46, 46, 46, 46, 46, 0, 46,
+                -46, 46, -46, 46, -46, 0, -46, -46, -46, -46, -46, -46, 0
               ],
               "shapeHoles": [],
               "isClosed": true,
@@ -959,12 +543,7 @@
             "parameters": {
               "width": 92,
               "depth": 0,
-              "cornerRadius": [
-                0,
-                0,
-                0,
-                0
-              ],
+              "cornerRadius": [0, 0, 0, 0],
               "cornerType": 0,
               "extrudeBevelSize": 0,
               "extrudeBevelSegments": 1,
@@ -1004,22 +583,13 @@
                     "id": "1f197c4f-e79e-4c48-b836-987b6ada4d06",
                     "data": {
                       "roundness": 0,
-                      "position": [
-                        4.5,
-                        -4.5
-                      ],
+                      "position": [4.5, -4.5],
                       "areControlsDirectionsMirrored": true,
                       "controlPrevious": {
-                        "position": [
-                          4.5,
-                          -4.5
-                        ]
+                        "position": [4.5, -4.5]
                       },
                       "controlNext": {
-                        "position": [
-                          4.5,
-                          -4.5
-                        ]
+                        "position": [4.5, -4.5]
                       }
                     }
                   },
@@ -1028,22 +598,13 @@
                     "id": "45eefa5e-418a-4c78-8fc4-9eb678fbdbd2",
                     "data": {
                       "roundness": 0,
-                      "position": [
-                        4.5,
-                        0
-                      ],
+                      "position": [4.5, 0],
                       "areControlsDirectionsMirrored": true,
                       "controlPrevious": {
-                        "position": [
-                          4.5,
-                          0
-                        ]
+                        "position": [4.5, 0]
                       },
                       "controlNext": {
-                        "position": [
-                          4.5,
-                          0
-                        ]
+                        "position": [4.5, 0]
                       }
                     }
                   },
@@ -1052,22 +613,13 @@
                     "id": "cdefb682-17cf-44dc-9965-c6f389039cea",
                     "data": {
                       "roundness": 0,
-                      "position": [
-                        null,
-                        null
-                      ],
+                      "position": [null, null],
                       "areControlsDirectionsMirrored": true,
                       "controlPrevious": {
-                        "position": [
-                          null,
-                          null
-                        ]
+                        "position": [null, null]
                       },
                       "controlNext": {
-                        "position": [
-                          null,
-                          null
-                        ]
+                        "position": [null, null]
                       }
                     }
                   },
@@ -1076,22 +628,13 @@
                     "id": "32affa80-8e5d-43ad-8416-842fdc0c40ec",
                     "data": {
                       "roundness": 0,
-                      "position": [
-                        null,
-                        null
-                      ],
+                      "position": [null, null],
                       "areControlsDirectionsMirrored": true,
                       "controlPrevious": {
-                        "position": [
-                          null,
-                          null
-                        ]
+                        "position": [null, null]
                       },
                       "controlNext": {
-                        "position": [
-                          null,
-                          null
-                        ]
+                        "position": [null, null]
                       }
                     }
                   },
@@ -1100,22 +643,13 @@
                     "id": "fc4ea1bd-630f-4ce3-ab5e-c60b810d8228",
                     "data": {
                       "roundness": 0,
-                      "position": [
-                        null,
-                        null
-                      ],
+                      "position": [null, null],
                       "areControlsDirectionsMirrored": true,
                       "controlPrevious": {
-                        "position": [
-                          null,
-                          null
-                        ]
+                        "position": [null, null]
                       },
                       "controlNext": {
-                        "position": [
-                          null,
-                          null
-                        ]
+                        "position": [null, null]
                       }
                     }
                   },
@@ -1124,22 +658,13 @@
                     "id": "d67b96c8-ac43-4836-93b3-1a3741377ba0",
                     "data": {
                       "roundness": 0,
-                      "position": [
-                        null,
-                        null
-                      ],
+                      "position": [null, null],
                       "areControlsDirectionsMirrored": true,
                       "controlPrevious": {
-                        "position": [
-                          null,
-                          null
-                        ]
+                        "position": [null, null]
                       },
                       "controlNext": {
-                        "position": [
-                          null,
-                          null
-                        ]
+                        "position": [null, null]
                       }
                     }
                   },
@@ -1148,22 +673,13 @@
                     "id": "b9c878ca-2fe1-41f2-adc5-54afa62c4a0e",
                     "data": {
                       "roundness": 0,
-                      "position": [
-                        null,
-                        null
-                      ],
+                      "position": [null, null],
                       "areControlsDirectionsMirrored": true,
                       "controlPrevious": {
-                        "position": [
-                          null,
-                          null
-                        ]
+                        "position": [null, null]
                       },
                       "controlNext": {
-                        "position": [
-                          null,
-                          null
-                        ]
+                        "position": [null, null]
                       }
                     }
                   },
@@ -1172,22 +688,13 @@
                     "id": "276bef32-5377-4995-95bf-5d0d6f2c49a0",
                     "data": {
                       "roundness": 0,
-                      "position": [
-                        null,
-                        null
-                      ],
+                      "position": [null, null],
                       "areControlsDirectionsMirrored": true,
                       "controlPrevious": {
-                        "position": [
-                          null,
-                          null
-                        ]
+                        "position": [null, null]
                       },
                       "controlNext": {
-                        "position": [
-                          null,
-                          null
-                        ]
+                        "position": [null, null]
                       }
                     }
                   },
@@ -1196,22 +703,13 @@
                     "id": "6e590a1a-e699-4449-b556-f569f1c1abd9",
                     "data": {
                       "roundness": 0,
-                      "position": [
-                        null,
-                        null
-                      ],
+                      "position": [null, null],
                       "areControlsDirectionsMirrored": true,
                       "controlPrevious": {
-                        "position": [
-                          null,
-                          null
-                        ]
+                        "position": [null, null]
                       },
                       "controlNext": {
-                        "position": [
-                          null,
-                          null
-                        ]
+                        "position": [null, null]
                       }
                     }
                   },
@@ -1220,22 +718,13 @@
                     "id": "58313a1c-e56d-4337-b1e2-795226369976",
                     "data": {
                       "roundness": 0,
-                      "position": [
-                        5.5,
-                        -5.5
-                      ],
+                      "position": [5.5, -5.5],
                       "areControlsDirectionsMirrored": true,
                       "controlPrevious": {
-                        "position": [
-                          5.5,
-                          -5.5
-                        ]
+                        "position": [5.5, -5.5]
                       },
                       "controlNext": {
-                        "position": [
-                          5.5,
-                          -5.5
-                        ]
+                        "position": [5.5, -5.5]
                       }
                     }
                   },
@@ -1244,22 +733,13 @@
                     "id": "1b2e0229-f36f-4fa5-90ba-5de4889aff05",
                     "data": {
                       "roundness": 0,
-                      "position": [
-                        0,
-                        -5.5
-                      ],
+                      "position": [0, -5.5],
                       "areControlsDirectionsMirrored": true,
                       "controlPrevious": {
-                        "position": [
-                          0,
-                          -5.5
-                        ]
+                        "position": [0, -5.5]
                       },
                       "controlNext": {
-                        "position": [
-                          0,
-                          -5.5
-                        ]
+                        "position": [0, -5.5]
                       }
                     }
                   },
@@ -1268,22 +748,13 @@
                     "id": "9f53782e-1fcd-44bb-afc2-35e2ee1109ae",
                     "data": {
                       "roundness": 0,
-                      "position": [
-                        null,
-                        null
-                      ],
+                      "position": [null, null],
                       "areControlsDirectionsMirrored": true,
                       "controlPrevious": {
-                        "position": [
-                          null,
-                          null
-                        ]
+                        "position": [null, null]
                       },
                       "controlNext": {
-                        "position": [
-                          null,
-                          null
-                        ]
+                        "position": [null, null]
                       }
                     }
                   }
@@ -1419,71 +890,43 @@
       "lights": [
         {
           "name": "Directional Light 6",
-          "color": [
-            1,
-            0.6196078431372549,
-            0.9450980392156862
-          ],
+          "color": [1, 0.6196078431372549, 0.9450980392156862],
           "intensity": 1.4,
           "type": "directional"
         },
         {
           "name": "Directional Light 6",
-          "color": [
-            1,
-            0.6196078431372549,
-            0.9450980392156862
-          ],
+          "color": [1, 0.6196078431372549, 0.9450980392156862],
           "intensity": 1.4,
           "type": "directional"
         },
         {
           "name": "Directional Light 5",
-          "color": [
-            1,
-            0.6196078431372549,
-            0.9450980392156862
-          ],
+          "color": [1, 0.6196078431372549, 0.9450980392156862],
           "intensity": 1.4,
           "type": "directional"
         },
         {
           "name": "Directional Light 3",
-          "color": [
-            1,
-            0.6196078431372549,
-            0.9450980392156862
-          ],
+          "color": [1, 0.6196078431372549, 0.9450980392156862],
           "intensity": 1.4,
           "type": "directional"
         },
         {
           "name": "Directional Light 2",
-          "color": [
-            0.20784313725490197,
-            0.2,
-            1
-          ],
+          "color": [0.20784313725490197, 0.2, 1],
           "intensity": 1,
           "type": "directional"
         },
         {
           "name": "Directional Light",
-          "color": [
-            1,
-            0.5019607843137255,
-            0.39215686274509803
-          ],
+          "color": [1, 0.5019607843137255, 0.39215686274509803],
           "intensity": 1,
           "type": "directional"
         },
         {
           "name": "Directional Light 4",
-          "color": [
-            0.4470588235294118,
-            0.7294117647058823,
-            1
-          ],
+          "color": [0.4470588235294118, 0.7294117647058823, 1],
           "intensity": 1.9,
           "type": "directional"
         }
@@ -1511,7 +954,5 @@
       }
     }
   ],
-  "extensionsUsed": [
-    "KHR_lights_punctual"
-  ]
+  "extensionsUsed": ["KHR_lights_punctual"]
 }

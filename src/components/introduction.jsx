@@ -5,6 +5,7 @@ import { Physics } from "@react-three/cannon";
 import { Phone } from "./models/Phone";
 import Typed from "typed.js";
 import { SvgIntroduction } from "./svg-shapes";
+import "../styles/introduction.css";
 
 export default function Introduction() {
   const typedEl = useRef();

@@ -1,0 +1,79 @@
+.about {
+  grid-row: 3 / 5;
+  display: grid;
+  height: 100%;
+  width: 100%;
+  grid-template-rows: 30% 70%;
+  gap: 20%;
+}
+
+.about-info-container {
+  padding-left: 7.5%;
+}
+
+.about-info-container > h1 {
+  font-size: 4em;
+}
+
+.about-info-container > ul {
+  color: lightgray;
+  padding-top: 3%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  letter-spacing: 0.7px;
+  padding-right: 30%;
+  font-size: 1.5rem;
+}
+
+.about-info-container > ul li {
+  padding-top: 15px;
+  padding-left: 0.4%;
+  list-style: none;
+}
+
+.about-info-container > ul li:before {
+  content: "🏔️  ";
+}
+
+.about-skills-container {
+  display: grid;
+  grid-template-rows: 20% 80%;
+  gap: 10%;
+}
+
+.about-skills-h3 {
+  padding-left: 7.5%;
+  font-size: 2.5em;
+}
+
+.about-skills-container > .about-skills {
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(auto-fit, minmax(250px, 40%));
+  gap: 5%;
+  justify-content: center;
+  align-content: center;
+}
+
+.about-skills-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.about-skills-item > h4 {
+  color: var(--text-yellow);
+  font-size: 2.5em;
+  border-bottom: 5px solid white;
+  padding-bottom: 4px;
+  margin-bottom: 5%;
+  font-weight: 700;
+}
+
+.about-skills-item > p {
+  width: 70%;
+  font-size: 1.5em;
+  font-weight: 100;
+  color: lightgray;
+}
